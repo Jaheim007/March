@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1562</width>
-    <height>1029</height>
+    <width>1531</width>
+    <height>997</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>-30</x>
       <y>0</y>
       <width>1561</width>
       <height>1031</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(	243,224,176);</string>
+     <string notr="true">background-color:#F7E7CE;</string>
     </property>
     <property name="currentIndex">
      <number>0</number>
@@ -43,7 +43,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../resource.qrc">:/Images/Static/Logo.png</pixmap>
+       <pixmap resource="../resource.qrc">:/Images/Static/codebreaker.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -134,7 +134,7 @@ font: 25 16pt &quot;Avenir&quot;;
 }</string>
       </property>
       <property name="text">
-       <string>Quel est ton but?</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Quel est ton but?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_3">
@@ -173,7 +173,7 @@ color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>60</y>
+        <y>90</y>
         <width>471</width>
         <height>121</height>
        </rect>
@@ -220,7 +220,7 @@ color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>120</x>
-        <y>820</y>
+        <y>800</y>
         <width>351</width>
         <height>61</height>
        </rect>
@@ -249,7 +249,7 @@ color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>190</y>
+        <y>220</y>
         <width>151</width>
         <height>51</height>
        </rect>
@@ -267,7 +267,7 @@ font: 25 16pt &quot;Avenir&quot;;
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>240</y>
+        <y>270</y>
         <width>501</width>
         <height>41</height>
        </rect>
@@ -285,7 +285,7 @@ background-color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>290</y>
+        <y>320</y>
         <width>151</width>
         <height>51</height>
        </rect>
@@ -303,7 +303,7 @@ font: 25 16pt &quot;Avenir&quot;;
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>340</y>
+        <y>370</y>
         <width>501</width>
         <height>41</height>
        </rect>
@@ -324,7 +324,7 @@ background-color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>810</x>
-        <y>570</y>
+        <y>530</y>
         <width>611</width>
         <height>401</height>
        </rect>
@@ -398,46 +398,17 @@ background-color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>830</x>
-        <y>500</y>
-        <width>121</width>
+        <y>480</y>
+        <width>151</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
 font: 25 16pt &quot;Avenir&quot;;
-background-color: rgb(7, 0, 255);
+background-color: #1E90FF;
 color: rgb(255, 255, 255);
-}
-</string>
-      </property>
-      <property name="text">
-       <string>Sign Up</string>
-      </property>
-      <property name="autoDefault">
-       <bool>true</bool>
-      </property>
-      <property name="default">
-       <bool>true</bool>
-      </property>
-      <property name="flat">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_12">
-      <property name="geometry">
-       <rect>
-        <x>1380</x>
-        <y>30</y>
-        <width>121</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{
-font: 25 16pt &quot;Avenir&quot;;
-background-color: rgb(7, 0, 255);
-color: rgb(255, 255, 255);
+border-radius: 10px;
 }
 </string>
       </property>
@@ -454,43 +425,126 @@ color: rgb(255, 255, 255);
        <bool>false</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_6">
+     <widget class="QPushButton" name="pushButton_12">
       <property name="geometry">
        <rect>
-        <x>830</x>
-        <y>390</y>
+        <x>1360</x>
+        <y>30</y>
         <width>151</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">QLabel{
+       <string notr="true">QPushButton{
 font: 25 16pt &quot;Avenir&quot;;
-}</string>
+background-color: #1E90FF;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+}
+</string>
       </property>
       <property name="text">
-       <string>Confirm Password</string>
+       <string>Sign Up</string>
+      </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QPushButton" name="pushButton_23">
       <property name="geometry">
        <rect>
-        <x>830</x>
-        <y>440</y>
-        <width>501</width>
+        <x>820</x>
+        <y>420</y>
+        <width>171</width>
         <height>41</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">QLineEdit{
-background-color: rgb(255, 255, 255);
+       <string notr="true">QPushButton{
+font: 25 16pt &quot;Avenir&quot;;
+}
+QPushButton::hover{
+color: rgb(7, 0, 255);
 }</string>
       </property>
-      <property name="echoMode">
-       <enum>QLineEdit::Password</enum>
+      <property name="text">
+       <string>Mot de passe oublié?</string>
       </property>
-      <property name="clearButtonEnabled">
+      <property name="flat">
        <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>660</y>
+        <width>391</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_4">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>780</y>
+        <width>391</width>
+        <height>3</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_5">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>890</y>
+        <width>391</width>
+        <height>3</height>
+       </rect>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="Line" name="line_6">
+      <property name="geometry">
+       <rect>
+        <x>97</x>
+        <y>570</y>
+        <width>391</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
       </property>
      </widget>
     </widget>
@@ -565,8 +619,8 @@ color: rgb(7, 0, 255);
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>200</y>
+        <x>540</x>
+        <y>140</y>
         <width>471</width>
         <height>91</height>
        </rect>
@@ -577,14 +631,14 @@ font: 25 25pt &quot;Avenir&quot;;
 }</string>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Connectez-vous à Code Breaker&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Connectez-vous à Code Breaker&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_8">
       <property name="geometry">
        <rect>
         <x>540</x>
-        <y>300</y>
+        <y>440</y>
         <width>151</width>
         <height>51</height>
        </rect>
@@ -595,14 +649,14 @@ font: 25 16pt &quot;Avenir&quot;;
 }</string>
       </property>
       <property name="text">
-       <string>Email</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Email&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
         <x>540</x>
-        <y>410</y>
+        <y>540</y>
         <width>151</width>
         <height>51</height>
        </rect>
@@ -620,7 +674,7 @@ font: 25 16pt &quot;Avenir&quot;;
       <property name="geometry">
        <rect>
         <x>540</x>
-        <y>350</y>
+        <y>380</y>
         <width>501</width>
         <height>41</height>
        </rect>
@@ -629,6 +683,9 @@ font: 25 16pt &quot;Avenir&quot;;
        <string notr="true">QLineEdit{
 background-color: rgb(255, 255, 255);
 }</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
       <property name="clearButtonEnabled">
        <bool>true</bool>
@@ -638,7 +695,7 @@ background-color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>540</x>
-        <y>470</y>
+        <y>600</y>
         <width>501</width>
         <height>41</height>
        </rect>
@@ -647,6 +704,9 @@ background-color: rgb(255, 255, 255);
        <string notr="true">QLineEdit{
 background-color: rgb(255, 255, 255);
 }</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
       <property name="echoMode">
        <enum>QLineEdit::Password</enum>
@@ -678,45 +738,16 @@ font: 25 18pt &quot;Avenir&quot;;
        <rect>
         <x>1370</x>
         <y>40</y>
-        <width>121</width>
+        <width>151</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
 font: 25 16pt &quot;Avenir&quot;;
-background-color: rgb(7, 0, 255);
+background-color:#1E90FF;
 color: rgb(255, 255, 255);
-}
-</string>
-      </property>
-      <property name="text">
-       <string>Sign Up</string>
-      </property>
-      <property name="autoDefault">
-       <bool>true</bool>
-      </property>
-      <property name="default">
-       <bool>true</bool>
-      </property>
-      <property name="flat">
-       <bool>false</bool>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_16">
-      <property name="geometry">
-       <rect>
-        <x>540</x>
-        <y>600</y>
-        <width>121</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{
-font: 25 16pt &quot;Avenir&quot;;
-background-color: rgb(7, 0, 255);
-color: rgb(255, 255, 255);
+border-radius: 10px;
 }
 </string>
       </property>
@@ -733,27 +764,118 @@ color: rgb(255, 255, 255);
        <bool>false</bool>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_17">
+     <widget class="QPushButton" name="pushButton_16">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>530</y>
-        <width>171</width>
-        <height>41</height>
+        <x>720</x>
+        <y>690</y>
+        <width>151</width>
+        <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton{
 font: 25 16pt &quot;Avenir&quot;;
+background-color:#1E90FF;
+color: rgb(255, 255, 255);
+border-radius: 10px;
 }
-QPushButton::hover{
-color: rgb(7, 0, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>Sign Up</string>
+      </property>
+      <property name="autoDefault">
+       <bool>true</bool>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>330</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+font: 25 16pt &quot;Avenir&quot;;
 }</string>
       </property>
       <property name="text">
-       <string>Mot de passe oublié?</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Prenom&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
-      <property name="flat">
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>220</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+font: 25 16pt &quot;Avenir&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Nom&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>490</y>
+        <width>501</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+background-color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_7">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>270</y>
+        <width>501</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+background-color: rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="clearButtonEnabled">
        <bool>true</bool>
       </property>
      </widget>
